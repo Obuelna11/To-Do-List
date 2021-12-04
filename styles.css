@@ -1,0 +1,50 @@
+.body {
+  background: url("images/paper-texture.jpg");
+}
+.title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.title-span {
+  font-family: "Corinthia", cursive;
+  font-size: 80px;
+  color: blue;
+}
+.p1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 25px;
+}
+.p2 {
+  font-family: "PT Sans", sans-serif;
+}
+.form {
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+  margin-top: 10px;
+}
+input[type="submit"],
+button,
+[aria-label] {
+  cursor: pointer;
+}
+#edit-box {
+  display: none;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}
+td {
+  background-color: aliceblue;
+  padding-right: 10px;
+  text-align: left;
+}
+.to-do {
+  background: transparent !important;
+  font-family: "PT Sans", sans-serif;
+  color: blue;
+  text-decoration: underline;
+}
